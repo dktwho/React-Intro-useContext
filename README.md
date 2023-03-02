@@ -1,5 +1,11 @@
 # Содержание
 
+Введение в хук useContext
+
+1. Первый commit с использованием provider/Consumer
+2. Далее смена на useContext
+3. Смена строки из контекста на объект
+
 ## Available Scripts
 
 In the project directory, you can run:
