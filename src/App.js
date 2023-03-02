@@ -8,7 +8,7 @@ import ChangeUser from './components/ChangeUser';
 function App() {
   const [user, setUser] = useState('Bill')
   return (
-    <UserContext.Provider value={{user, setUser}}>
+    <UserContext.Provider value={{userName: user, changeUserName: setUser}}>
     <div className="App">
       <User  />
       <ChangeUser/>

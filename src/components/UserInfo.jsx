@@ -3,10 +3,10 @@ import { UserContext } from "../context/userContext";
 import { useContext } from "react";
 
 const UserInfo = () => {
-  const { user, setUser } = useContext(UserContext);
+  const { userName, changeUserName } = useContext(UserContext);
   return (
     <>
-      <h1>{user} </h1>
+      <h1>{userName} </h1>
     </>
   );
 };
